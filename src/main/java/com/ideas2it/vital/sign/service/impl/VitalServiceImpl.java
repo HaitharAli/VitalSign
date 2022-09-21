@@ -32,8 +32,6 @@ public class VitalServiceImpl implements VitalService {
 	@Autowired
 	private PatientFeignService patientFeignService;
 
-	private String authHeader = "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJJMjIyNTAiLCJleHAiOjE2NjI3NTcwMzIsImlhdCI6MTY2MjczOTAzMn0.WFLKcpX7XtmCG8YM9ft2zDvSgSDunko7xsn5ekXqwqQ";
-
 	@Override
 	public VitalDto getVitalInfoById(Long vitalId, String loginUserId) {
 
